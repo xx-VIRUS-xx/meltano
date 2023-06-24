@@ -1,0 +1,21 @@
+version: 1
+default_environment: dev
+project_id: 91a01aee-10d6-45dc-a430-e848920bc66c
+environments:
+- name: dev
+- name: staging
+- name: prod
+plugins:
+  extractors:
+  - name: tap-pokeapi
+    variant: airbyte
+    pip_url: git+https://github.com/MeltanoLabs/tap-airbyte-wrapper.git
+    config:
+      airbyte_config:
+        pokemon_name: charizard
+  loaders:
+  - name: target-csv
+    variant: hotgluexyz
+    pip_url: git+https://github.com/hotgluexyz/target-csv.git
+    config:
+      destination_path: output
