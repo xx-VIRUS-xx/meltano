@@ -12,10 +12,10 @@ plugins:
     pip_url: git+https://github.com/MeltanoLabs/tap-airbyte-wrapper.git
     config:
       airbyte_config:
-        pokemon_name: charizard
+        pokemon_name: squirtle
   loaders:
   - name: target-csv
     variant: hotgluexyz
     pip_url: git+https://github.com/hotgluexyz/target-csv.git
     config:
-      destination_path: output
+      destination_path: New-output
