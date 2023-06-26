@@ -28,6 +28,6 @@ Prerequisites:
    - For multiple Pokemon data use script.py to automate the fetching of multiple Pokemon data
      $ python3 script.py
 
-5. Check output in New-output folder
-6. Check pokemon_list.csv for concatenated data from files in New-output
-7. 
+5. To Check individual files as an output check New-output folder
+6. Check pokemon_list.csv for merged data from files in New-output.
+
