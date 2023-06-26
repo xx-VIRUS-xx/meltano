@@ -25,7 +25,9 @@ Prerequisites:
      $ meltano config tap-pokeapi set airbyte_config pokemon_name pikachu
      $ meltano run tap-pokeapi target-csv
 
-   - For multiple Pokemon data use script.py to automate the fetchin of multiple Pokemon data
+   - For multiple Pokemon data use script.py to automate the fetching of multiple Pokemon data
      $ python3 script.py
 
-5. Check output in output folder
+5. Check output in New-output folder
+6. Check pokemon_list.csv for concatenated data from files in New-output
+7. 
